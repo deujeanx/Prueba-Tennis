@@ -1,0 +1,10 @@
+<div class="container text-center mt-2">
+    <div class="row">
+        <h2>CONFIGURACION</h2>
+        <div class="col">
+            <input type="text" #nombre1 class="form-control mt-2" placeholder="Nombre jugador 1">
+            <input type="text" #nombre2 class="form-control mt-2" placeholder="Nombre jugador 2">
+            <button (click)="guardarNombre(nombre1.value, nombre2.value)" class="mt-2 btn btn-primary">INICIAR</button>
+        </div>
+    </div>
+</div>
