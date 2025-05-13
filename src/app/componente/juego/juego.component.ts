@@ -49,7 +49,7 @@ export class JuegoComponent {
 
       this.puntuacion1 = "Ventaja";
 
-    } else if (this.puntos1>3 && this.puntos1-this.puntos2 >=2 && this.puntuacion1=="Ventaja") {
+    } else if (this.puntos1>4 && this.puntos1-this.puntos2 >=2 && this.puntuacion1=="Ventaja") {
 
       this.puntuacion1 = "GANADOR!!"
 
@@ -74,7 +74,7 @@ export class JuegoComponent {
       this.puntuacion2 = "Ventaja";
       console.log("entra")
 
-    } else if (this.puntos2 > 3 && this.puntos2-this.puntos1 >= 2 && this.puntuacion2=="Ventaja") {
+    } else if (this.puntos2 > 4 && this.puntos2-this.puntos1 >= 2 && this.puntuacion2=="Ventaja") {
 
       this.puntuacion2 = "GANADOR!!"
 
